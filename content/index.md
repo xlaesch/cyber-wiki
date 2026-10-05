@@ -7,13 +7,13 @@ A working reference for offensive security, system fundamentals, and security la
 
 ## Network pentesting
 
-- [Reconnaissance](network-pentesting/recon-moc.md)
-- [Enumeration](network-pentesting/enumeration-moc.md)
-- [Exploitation](network-pentesting/exploitation-moc.md)
-- [Privilege escalation](network-pentesting/privesc-moc.md)
-- [Post-exploitation](network-pentesting/post-exploitation-moc.md)
-- [Active Directory](network-pentesting/active-directory-moc.md)
-- [Reporting](network-pentesting/reporting-moc.md)
+- [Reconnaissance](network-pentesting/01-reconnaissance/)
+- [Enumeration](network-pentesting/02-enumeration/)
+- [Exploitation](network-pentesting/03-exploitation/)
+- [Privilege escalation](network-pentesting/05-privilege-escalation/)
+- [Post-exploitation](network-pentesting/06-post-exploitation/)
+- [Active Directory](network-pentesting/07-active-directory/)
+- [Reporting](network-pentesting/08-reporting/)
 - [Pentesting process](pentesting-process.md)
 
 ## Fundamentals and other subjects
