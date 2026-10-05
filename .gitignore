@@ -1,5 +1,4 @@
 .DS_Store
-.gitignore
 node_modules
 public
 prof
@@ -12,3 +11,8 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+
+# Imported notes are generated from the source vault at build time.
+content/*
+!content/index.md
+notes-source/

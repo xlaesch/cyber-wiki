@@ -1,17 +1,32 @@
-# Quartz v5
+# Cyber Reference Wiki
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Quartz 5 website for the Obsidian notes in [xlaesch-Cookbook](https://github.com/xlaesch/xlaesch-Cookbook), hosted with GitHub Pages at https://wiki.alexsch.dev.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Update notes
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+Edit and push notes in the source repository. The site imports its latest `main` branch on every deployment. An hourly schedule picks up note changes; use **Actions → Deploy wiki → Run workflow** for an immediate update. Scheduled GitHub Actions can be delayed and are disabled after 60 days without repository activity.
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+Current subject folders are published; legacy remote trees, Obsidian settings, and agent instructions are excluded. The note repository remains the source of truth.
 
-## Sponsors
+## Local preview
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+```shell
+npm ci
+python3 scripts/import-notes.py ~/Documents/Cyber
+npx quartz plugin install
+npx quartz build -d /tmp/cyber-wiki-content --serve
+```
+
+Visit http://localhost:8080. Site configuration lives in `quartz.config.yaml`; the homepage lives in `content/index.md`.
+
+## Domain setup
+
+In Squarespace, open **Domains → alexsch.dev → DNS → DNS Settings → Custom records** and add:
+
+| Type | Host | Value |
+| --- | --- | --- |
+| CNAME | wiki | xlaesch.github.io |
+
+Keep the existing root domain and `www` records. In this site's GitHub **Settings → Pages**, the custom domain is `wiki.alexsch.dev`. Once DNS validates and GitHub issues the certificate, enable **Enforce HTTPS**.
+
+Quartz is MIT licensed; see `LICENSE.txt`.
