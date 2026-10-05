@@ -5,15 +5,15 @@ description: Offensive security techniques, enumeration workflows, and system fu
 
 A working reference for offensive security, system fundamentals, and security labs. Browse by subject or search for a tool, technique, or error message.
 
-## Technique cookbook
+## Network pentesting
 
-- [Reconnaissance](xlaesch-Cookbook/recon-moc.md)
-- [Enumeration](xlaesch-Cookbook/enumeration-moc.md)
-- [Exploitation](xlaesch-Cookbook/exploitation-moc.md)
-- [Privilege escalation](xlaesch-Cookbook/privesc-moc.md)
-- [Post-exploitation](xlaesch-Cookbook/post-exploitation-moc.md)
-- [Active Directory](xlaesch-Cookbook/active-directory-moc.md)
-- [Reporting](xlaesch-Cookbook/reporting-moc.md)
+- [Reconnaissance](network-pentesting/recon-moc.md)
+- [Enumeration](network-pentesting/enumeration-moc.md)
+- [Exploitation](network-pentesting/exploitation-moc.md)
+- [Privilege escalation](network-pentesting/privesc-moc.md)
+- [Post-exploitation](network-pentesting/post-exploitation-moc.md)
+- [Active Directory](network-pentesting/active-directory-moc.md)
+- [Reporting](network-pentesting/reporting-moc.md)
 - [Pentesting process](pentesting-process.md)
 
 ## Fundamentals and other subjects

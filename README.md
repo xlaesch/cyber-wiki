@@ -6,7 +6,7 @@ Quartz 5 website for the Obsidian notes in [xlaesch-Cookbook](https://github.com
 
 Edit and push notes in the source repository. The site imports its latest `main` branch on every deployment. An hourly schedule picks up note changes; use **Actions → Deploy wiki → Run workflow** for an immediate update. Scheduled GitHub Actions can be delayed and are disabled after 60 days without repository activity.
 
-Current subject folders are published; legacy remote trees, Obsidian settings, and agent instructions are excluded. The note repository remains the source of truth.
+The `network-pentesting/` folder and other current subject folders are published; legacy remote trees, Obsidian settings, and agent instructions are excluded. The note repository remains the source of truth.
 
 ## Local preview
 
