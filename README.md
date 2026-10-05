@@ -1,6 +1,6 @@
 # Cyber Reference Wiki
 
-Quartz 5 website for the Obsidian notes in [xlaesch-Cookbook](https://github.com/xlaesch/xlaesch-Cookbook), hosted with GitHub Pages at https://wiki.alexsch.dev.
+Quartz 5 website for the Obsidian notes in [xlaesch-Cookbook](https://github.com/xlaesch/xlaesch-Cookbook), hosted with GitHub Pages at https://notes.alexsch.dev.
 
 ## Update notes
 
@@ -25,8 +25,8 @@ In Squarespace, open **Domains → alexsch.dev → DNS → DNS Settings → Cust
 
 | Type | Host | Value |
 | --- | --- | --- |
-| CNAME | wiki | xlaesch.github.io |
+| CNAME | notes | xlaesch.github.io |
 
-Keep the existing root domain and `www` records. In this site's GitHub **Settings → Pages**, the custom domain is `wiki.alexsch.dev`. Once DNS validates and GitHub issues the certificate, enable **Enforce HTTPS**.
+Keep the existing root domain and `www` records. In this site's GitHub **Settings → Pages**, the custom domain is `notes.alexsch.dev`. Once DNS validates and GitHub issues the certificate, enable **Enforce HTTPS**.
 
 Quartz is MIT licensed; see `LICENSE.txt`.
